@@ -187,7 +187,7 @@ isInChat() {
 	if (!checkHandles())
 		return -1
 	
-	return (readDWORD(readDWORD(hGTA, dwSAMP + 0x26E8F4) + 0x61) > 0)
+	return (readDWORD(hGTA, readDWORD(hGTA, dwSAMP + 0x26E8F4) + 0x61) > 0)
 }
 getAuthor() {
 	return "vk.com/idDrygok"
