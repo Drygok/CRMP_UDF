@@ -183,6 +183,12 @@ sendChat(Text) {
 	
 	callWithParams(hGTA, dwFunc, [["s", "" Text]], false)
 }
+isInChat() {	
+	if (!checkHandles())
+		return -1
+	
+	return (readDWORD(readDWORD(hGTA, dwSAMP + 0x26E8F4) + 0x61) > 0)
+}
 getAuthor() {
 	return "vk.com/idDrygok"
 }
