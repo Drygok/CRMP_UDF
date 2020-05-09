@@ -13,7 +13,7 @@ global pInjectFunc := 0x0
 global iRefreshHandles := 0
 
 global GAME_MP_ModuleName := "samp.dll" // Название модуля мультиплеера
-global GAME_PID := "CR-MP.COM" // Заголовок окна игры
+global GAME_PID := "AMAZING Криминальная Россия" // Заголовок окна игры
 
 
 waitForSingleObject(hThread, dwMilliseconds) {
