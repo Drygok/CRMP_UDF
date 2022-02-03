@@ -12,7 +12,7 @@ global pParam5 := 0x0
 global pInjectFunc := 0x0
 global iRefreshHandles := 0
 
-global GAME_MP_ModuleName := "samp.dll" // Название модуля мультиплеера
+global GAME_MP_ModuleName := "azmp.dll" // Название модуля мультиплеера
 global GAME_PID := "AMAZING Криминальная Россия" // Заголовок окна игры
 
 
