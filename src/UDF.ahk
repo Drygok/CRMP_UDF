@@ -8,7 +8,8 @@
 	AHK UDF для CR:MP и SA:MP версии 0.3.7 R3
 	Перевел, обновил, доработал и отредактировал Снегирев Максим
 	
-	vk.com/idDrygok | яМаксим.рф
+	
+	vk.com/drygok | vk.com/idDrygok | яМаксим.рф
 	
 */
 
